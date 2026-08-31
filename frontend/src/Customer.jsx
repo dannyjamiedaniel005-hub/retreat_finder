@@ -384,14 +384,17 @@ function Customer() {
 
           {/* SEARCH */}
 
-          <input
-            type="text"
-            placeholder="Search by name, location or facility..."
-            value={search}
-            onChange={(e) =>
-              setSearch(e.target.value)
-            }
-          />
+          <div class="search-bar">
+            <input
+            class="search-input"
+              type="text"
+              placeholder="Search by name, location or facility..."
+              value={search}
+              onChange={(e) =>
+                setSearch(e.target.value)
+              }
+            />
+          </div>
 
 
           {/* LOADING */}

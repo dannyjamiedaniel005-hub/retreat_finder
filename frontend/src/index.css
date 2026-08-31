@@ -313,3 +313,16 @@ button:hover {
   background: #eef6f0;
   color: #315c4b;
 }
+
+.search-bar{
+  justify-content: center;
+  width: 100%;
+}
+
+.search-input{
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
