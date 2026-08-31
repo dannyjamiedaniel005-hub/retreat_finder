@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5faf8;
+  color: #26332f;
+}
+
+button {
+  border: none;
+  padding: 11px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #d8eee5;
+  color: #245344;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #c7e5da;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 11px;
+  margin-top: 6px;
+  border: 1px solid #d8e4df;
+  border-radius: 8px;
+  font-size: 15px;
+  background: white;
+  color: #26332f;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #9fcdbd;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: white;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5eeea;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #315f50;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #315f50;
+}
+
+.hero p {
+  color: #687873;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.form-card {
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  max-width: 650px;
+  margin: 30px auto;
+  border: 1px solid #e2ece8;
+  box-shadow: 0 5px 20px rgba(80, 110, 100, 0.08);
+}
+
+.form-card h2 {
+  color: #315f50;
+}
+
+.form-card p {
+  color: #687873;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #3e504a;
+}
+
+.form-group small {
+  color: #7b8985;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border: 1px solid #e2ece8;
+  box-shadow: 0 5px 18px rgba(80, 110, 100, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #315f50;
+}
+
+.info {
+  color: #687873;
+  margin: 8px 0;
+}
+
+.badge {
+  display: inline-block;
+  background: #edf7f3;
+  color: #477264;
+  padding: 6px 10px;
+  border-radius: 20px;
+  margin: 4px;
+  font-size: 13px;
+}
